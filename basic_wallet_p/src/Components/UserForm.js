@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles'
 import TextField from '@material-ui/core/TextField'
@@ -13,14 +13,12 @@ import { AccountCircle } from '@material-ui/icons'
 
 import styled from 'styled-components'
 
-import axios from 'axios'
 
 const useStyles = makeStyles(theme => ({
   container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    flexWrap: 'wrap',
   },
   textField: {
     marginLeft: theme.spacing(2),
